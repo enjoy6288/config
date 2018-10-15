@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev #开发环境
   application:
-    name: config-eureka-client
+    name: config_eureka_client
 eureka: 
   instance:
     hostname: eureka7001.com #eureka服务端的实例名称
@@ -24,7 +24,7 @@ server:
 spring:
   profiles: test #开发环境
   application:
-    name: config-eureka-client
+    name: config_eureka_client
 eureka: 
   instance:
     hostname: eureka7001.com #eureka服务端的实例名称
