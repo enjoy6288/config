@@ -6,7 +6,7 @@
 server: 
   port: 8001
 spring:
-  profiles: dev #开发环境
+  profiles: dev
   application:
     name: microservicecloud-dept  
    datasource:
